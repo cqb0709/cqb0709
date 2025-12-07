@@ -66,12 +66,12 @@ Github Actions와 AWS S3를 연동하여 코드 푸시 시 빌드 및 배포가 
 
 2. IoT 기반 스마트 디바이스 제어 및 모니터링 웹 서비스  |  **Repository:** [https://github.com/iottproj/IoT_Team6](https://github.com/iottproj/IoT_Team6)
 
-Role: Full Stack Developer (IoT Device & Web Integration)
-Period: 202X.XX ~ 202X.XX
+Role: Full Stack Developer (IoT Device <-> AWS <-> Web Integration)
+Period: 2024.11 ~ 202X.12 (2개월)
 Keywords: AWS IoT Core, MQTT, ESP32, AWS Amplify
 
 [프로젝트 개요]
-ESP32 기반의 IoT 하드웨어와 웹 플랫폼을 연동하여 실시간으로 장치를 제어하고 데이터를 시각화하는 풀스택 프로젝트입니다.
+ESP32 기반의 IoT 하드웨어와 웹 플랫폼을 AWS를 통해 연동하여, 사용자의 정보를 안전하게 보관하고, 사용자 요청으로 장치를 실시간으로 제어하는 풀스택 프로젝트입니다.
 
 [담당 역할 및 성과]
 
@@ -85,16 +85,18 @@ Device Shadow를 활용하여 오프라인 상태에서도 명령을 동기화�
 
 AWS Amplify를 활용하여 프론트엔드 및 백엔드 리소스를 통합 관리하고 신속하게 웹 서비스 배포.
 
+AWS AMplify <> Cognito 연동을 통해 자체 로그인, 제3자 로그인 (OAuth) 기능 구현
+
 웹 대시보드에서 IoT 기기의 상태를 실시간으로 확인하고 원격 제어하는 기능 구현.
 
 3. 풍력 발전기 마모 관측 AI 데이터 생성 및 모델링 (캡스톤 디자인)
 
 Role: Hardware Engineer & Data Pipeline Architect
-Period: 202X.XX ~ 202X.XX
+Period: 2025.03 ~ 2025.12 (9개월)
 Keywords: Hardware Control, Data Generation, Arduino, Computer Vision
 
 [프로젝트 개요]
-풍력 발전기의 유지보수를 자동화하기 위해 마모 상태를 탐지하는 AI 모델을 개발했습니다. 실제 데이터 확보의 어려움을 해결하기 위해 3D 프린팅 모형으로 시뮬레이션 환경을 구축하고 양질의 학습 데이터를 생성했습니다.
+풍력 발전기의 유지보수의 간편화를 위해, 블레이드의 마모 상태를 탐지하는 AI 모델을 개발했습니다. 실제 데이터 확보의 어려움을 해결하기 위해 3D 프린팅 모형으로 시뮬레이션 환경을 구축하고 양질의 학습 데이터를 생성했습니다.
 
 [담당 역할 및 성과]
 
@@ -102,7 +104,7 @@ Keywords: Hardware Control, Data Generation, Arduino, Computer Vision
 
 3D 프린터로 풍력 발전기 축소 모형 제작 및 **마모 케이스(Crack, Erosion 등)**를 물리적으로 재현.
 
-Arduino와 모터 드라이버(L298N 등), SMPS를 활용하여 발전기의 회전 속도(RPM)를 정밀 제어하는 회로 설계 및 배선.
+Arduino와 모터 드라이버(Tmc2208), SMPS (50-12) 를 활용하여 발전기의 회전 속도(30~10 RPM)를 정밀 제어하는 회로 설계 및 배선.
 
 다양한 RPM 환경에서의 영상 데이터를 확보하여 모델의 강건성(Robustness) 확보.
 
