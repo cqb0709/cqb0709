@@ -33,8 +33,7 @@ Email: cqb0709@gmail.com | GitHub: https://github.com/cqb0709
 
 🚀 Projects
 
-1. AWS Serverless 기반의 실시간 멀티플레이어 게임 백엔드 구축
-**Repository:** [https://github.com/cqb0709/ProjectTOL_AWS](https://github.com/cqb0709/ProjectTOL_AWS)
+1. AWS Serverless 기반의 실시간 멀티플레이어 게임 백엔드 구축  |  **Repository:** [https://github.com/cqb0709/ProjectTOL_AWS](https://github.com/cqb0709/ProjectTOL_AWS)
 
 Role: Backend Developer (AWS Infra & Server Logic)
 Period: 2024.04 ~ 2024.06 (3개월)
