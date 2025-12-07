@@ -64,8 +64,7 @@ GameLift FlexMatch를 도입하여 유저 랭킹 및 레이턴시 기반의 최�
 
 Github Actions와 AWS S3를 연동하여 코드 푸시 시 빌드 및 배포가 자동으로 이루어지는 CI/CD 파이프라인 구축.
 
-2. IoT 기반 스마트 디바이스 제어 및 모니터링 웹 서비스
-**Repository:** []()
+2. IoT 기반 스마트 디바이스 제어 및 모니터링 웹 서비스  |  **Repository:** [https://github.com/iottproj/IoT_Team6](https://github.com/iottproj/IoT_Team6)
 
 Role: Full Stack Developer (IoT Device & Web Integration)
 Period: 202X.XX ~ 202X.XX
